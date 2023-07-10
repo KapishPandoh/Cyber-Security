@@ -1,0 +1,6 @@
+This project aims to create a keylogger program that captures keystrokes on a computer and stores them in a log file for later analysis. 
+Libraries are imported to store the keystrokes in a Log file and to create a graphical user interface. 
+Fernet is a cryptography package used to encrypt and decrypt data , and generate a key. 
+The key must be kept safe as it is the most important component to decrypt the message. 
+The keylogger is started and stopped using the start_keylogger() and stop_keylogger() functions. 
+The encrypt_file() and decrypt_file() functions use the cryptography library to encrypt and decrypt the log file using the provided encryption key.
